@@ -37,6 +37,9 @@ header button {
 }
 /* /HEADER */
 /* MAIN */
+main {
+    line-height: 1.5;
+}
 /* Section Feature */
 .feature {
     margin: 40px 0 60px;
@@ -57,7 +60,7 @@ header button {
 }
 .feature img {
     height: 300px;
-    margin-bottom: -3.5px;
+    margin-bottom: -7px;
 }
 .feature h4, .feature i {
     color: rgb(0, 130, 249);
@@ -89,12 +92,36 @@ header button {
 .innovations {
     padding: 50px 0;
 }
-.innovations .col-50 {
-    background-color: crimson;
-    height: 500px;
-}
 .innovations .col-50:last-child {
     margin-top: 30px;
+}
+.innovations img {
+    width: 100%;
+}
+.innovations .col-50:first-child .content {
+    color: white;
+}
+.innovations h3 {
+    font-size: 25px;
+    margin: 60px 0 40px;
+}
+.innovations .background {
+    background-color: white;
+    border-radius: 30px;
+    padding: 25px;
+    text-align: center;
+}
+.innovations h4 {
+    margin-top: 10px;
+}
+.innovations .background p {
+    margin: 20px 0 30px;
+    font-style: italic;
+}
+.innovations i {
+    background-color: rgb(151, 146, 228);
+    padding: 15px 18px;
+    border-radius: 50%;
 }
 /* Section Testimonials */
 .testimonials {
@@ -173,7 +200,7 @@ footer .col-100 {
 /* /LAYOUT */
 /* GENERAL */
 .back-light-blue {
-    background-color: rgb(145, 140, 218);
+    background-color: rgb(151, 146, 228);
 }
 h4 {
     font-size: 20px;
