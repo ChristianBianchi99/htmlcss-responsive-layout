@@ -125,7 +125,7 @@ footer .col-100 {
 /* Tablet */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 900px;
+        max-width: 800px;
     }
     .feature .row, .benefits .row, .about-us .row {
         flex-direction: row;
@@ -150,10 +150,34 @@ footer .col-100 {
 }
 /* Desktop */
 @media screen and (min-width: 991px) {
-    
+    .container {
+        width: 60%;
+    }
+    .innovations .container {
+        width: 50%;
+    }
+    .about-us .container {
+        width: 55%;
+    }
+    .get-started .container, footer .container {
+        width: calc(100% / 3);
+    }
+    .innovations .row {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .innovations .col-50 {
+        width: calc(100% / 2 - 20px);
+    }
+    .innovations .col-50:last-child {
+        margin-top: 0;
+    }
+    .benefits .col-33 {
+        width: calc(100% / 3 - 15px);
+    }
 }
 /* Large Desktop */
 @media screen and (min-width: 1200px) {
-    
+
 }
 /* /MEDIA */
