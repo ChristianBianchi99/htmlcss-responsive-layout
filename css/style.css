@@ -10,6 +10,7 @@ header {
 }
 header .row {
     justify-content: space-between;
+    flex-direction: row;
 }
 header .col {
     background-color: red;
@@ -18,6 +19,29 @@ header .col {
 }
 /* /HEADER */
 /* MAIN */
+/* Section Feature */
+.feature {
+    margin: 40px 0 60px;
+}
+.col-33-doubled, .col-33 {
+    background-color: purple;
+    height: 300px;
+}
+.col-33 {
+    margin-top: 20px;
+}
+/* Section Innovations */
+.innovations {
+    background-color: rgb(145, 140, 218);
+    padding: 50px 0;
+}
+.col-50 {
+    background-color: crimson;
+    height: 500px;
+}
+.col-50:last-child {
+    margin-top: 30px;
+}
 /* /MAIN */
 /* FOOTER */
 /* /FOOTER */
@@ -28,6 +52,10 @@ header .col {
 }
 .row {
     display: flex;
+    flex-direction: column;
+}
+.col-33-doubled, .col-33, .col-50 {
+    width: 100%;
 }
 /* /LAYOUT */
 /* GENERAL */
