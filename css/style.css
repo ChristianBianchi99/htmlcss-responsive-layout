@@ -72,8 +72,35 @@ header .col {
 .benefits .col-33:last-child {
     margin-bottom: 0;
 }
+/* Section About-Us */
+.about-us {
+    margin: 80px 0;
+}
+.about-us .col-33-doubled, .about-us .col-33 {
+    background-color: pink;
+    height: 400px;
+}
+.about-us .col-33-doubled {
+    margin-bottom: 50px;
+}
+/* Section Get-Started */
+.get-started {
+    padding: 60px 0;
+}
+.get-started .col-100 {
+    background-color: green;
+    height: 500px;
+}
 /* /MAIN */
 /* FOOTER */
+footer {
+    background-color: rgb(51, 51, 51);
+    padding: 40px 0;
+}
+footer .col-100 {
+    background-color: white;
+    height: 200px;
+}
 /* /FOOTER */
 /* LAYOUT */
 .container {
