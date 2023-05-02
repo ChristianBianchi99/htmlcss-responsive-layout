@@ -104,7 +104,8 @@ footer .col-100 {
 /* /FOOTER */
 /* LAYOUT */
 .container {
-    margin: 0 30px;
+    margin: 0 auto;
+    padding: 0 30px;
     max-width: 700px;
 }
 .row {
@@ -122,15 +123,37 @@ footer .col-100 {
 /* /GENERAL */
 /* MEDIA */
 /* Tablet */
-@media screen (min-width: 768px) {
-    
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 900px;
+    }
+    .feature .row, .benefits .row, .about-us .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col-33-doubled {
+        width: calc(100% / 3 * 2 - 7.5px);
+    }
+    .col-33 {
+        width: calc(100% / 3 - 15px);
+    }
+    .feature .col-33 {
+        margin-top: 0;
+    }
+    .feature .col-33-doubled, .feature .col-33:first-child {
+        margin-bottom: 20px;
+    }
+    .benefits .col-33 {
+        width: calc(50% - 15px);
+    }
 }
 /* Desktop */
-@media screen (min-width: 991px) {
+@media screen and (min-width: 991px) {
     
 }
 /* Large Desktop */
-@media screen (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     
 }
 /* /MEDIA */
