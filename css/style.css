@@ -41,12 +41,49 @@ header button {
 .feature {
     margin: 40px 0 60px;
 }
-.feature .col-33-doubled, .feature .col-33 {
-    background-color: purple;
-    height: 300px;
-}
 .feature .col-33 {
     margin-top: 20px;
+}
+.feature .background {
+    background-color: rgb(181, 221, 255);
+    border-radius: 20px;
+}
+.feature .col-33-doubled .content {
+    text-align: left;
+}
+.feature .content {
+    padding: 30px;
+    text-align: center;
+}
+.feature img {
+    height: 300px;
+    margin-bottom: -3.5px;
+}
+.feature h4, .feature i {
+    color: rgb(0, 130, 249);
+}
+.feature i {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.feature p {
+    margin-top: 30px;
+    color: rgb(90, 110, 127);
+}
+.feature button, .feature button i {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+.feature button {
+    background-color: rgb(0, 130, 249);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 35px;
+    margin-top: 30px;
+}
+.feature button i {
+    margin-right: 8px;
 }
 /* Section Innovations */
 .innovations {
@@ -137,6 +174,9 @@ footer .col-100 {
 /* GENERAL */
 .back-light-blue {
     background-color: rgb(145, 140, 218);
+}
+h4 {
+    font-size: 20px;
 }
 /* /GENERAL */
 /* MEDIA */
