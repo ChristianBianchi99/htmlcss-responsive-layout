@@ -139,6 +139,8 @@ main {
 }
 .testimonials .content {
     padding: 30px 10px;
+}
+.testimonials .back-light-blue {
     border-radius: 45px;
     width: 100%;
     display: flex;
@@ -283,6 +285,24 @@ h3 {
     }
     .benefits .col-33 {
         width: calc(50% - 15px);
+    }
+    .testimonials {
+        text-align: initial;
+    }
+    .testimonials .col-100:first-child {
+        text-align: center;
+    }
+    .testimonials .back-light-blue {
+        display: flex;
+        flex-direction: row;
+    }
+    .testimonials .img-content {
+        height: 200px;
+        width: 200px;
+        flex-shrink: 0;
+    }
+    .testimonials .p-content {
+        margin: 0 25px;
     }
 }
 /* Desktop */
