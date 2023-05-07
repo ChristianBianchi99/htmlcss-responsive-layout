@@ -279,10 +279,36 @@ main {
 /* Section Get-Started */
 .get-started {
     padding: 60px 0;
+    color: white;
+    text-align: center;
 }
-.get-started .col-100 {
-    background-color: green;
-    height: 500px;
+.get-started .section-name {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+.get-started h2 {
+    font-size: 50px;
+    color: rgb(247, 188, 92);
+}
+.get-started p, .get-started .copyright {
+    font-size: 14px;
+}
+.get-started button {
+    background-color: white;
+    color: rgb(151, 146, 228);
+    border: none;
+    padding: 20px 60px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+.get-started .copyright .entities {
+    font-weight: bold;
+}
+.get-started a {
+    color: inherit;
 }
 /* /MAIN */
 /* FOOTER */
@@ -381,6 +407,9 @@ h3 {
     }
     .about-us .content h3 {
         font-size: 25px;
+    }
+    .get-started .container {
+        width: 50%;
     }
 }
 /* Desktop */
