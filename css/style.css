@@ -192,18 +192,43 @@ main {
 .benefits {
     padding: 50px 0;
 }
-.benefits .col-100, .benefits .col-33 {
-    background-color: gray;
-    height: 300px;
-}
 .benefits .col-100 {
     margin-bottom: 50px;
+    text-align: center;
+    color: white;
 }
 .benefits .col-33 {
     margin-bottom: 30px;
 }
 .benefits .col-33:last-child {
     margin-bottom: 0;
+}
+.benefits .content {
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(151, 146, 228);
+}
+.benefits .numbers {
+    font-size: 40px;
+    font-weight: bold;
+}
+.benefits .title {
+    margin: 15px 0;
+}
+.benefits p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: rgb(90, 110, 127);
+}
+.benefits button {
+    background-color: rgb(151, 146, 228);
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-weight: bold;
 }
 /* Section About-Us */
 .about-us {
@@ -276,6 +301,7 @@ h3 {
     }
     .col-33 {
         width: calc(100% / 3 - 15px);
+        height: 100%;
     }
     .feature .col-33 {
         margin-top: 0;
