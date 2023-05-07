@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: sans-serif;
+}
 /* HEADER */
 header {
     background-color: rgb(0, 132, 253);
@@ -102,7 +105,6 @@ main {
     color: white;
 }
 .innovations h3 {
-    font-size: 25px;
     margin: 60px 0 40px;
 }
 .innovations .background {
@@ -126,16 +128,63 @@ main {
 /* Section Testimonials */
 .testimonials {
     margin: 60px 0 100px;
-}
-.testimonials .col-100 {
-    background-color: darkorange;
-    height: 300px;
+
+    text-align: center;
 }
 .testimonials .col-100 {
     margin-bottom: 30px;
 }
 .testimonials .col-100:last-child {
     margin-bottom: 0;
+}
+.testimonials .content {
+    padding: 30px 10px;
+    border-radius: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials .section-name, .testimonials .name {
+    text-transform: uppercase;
+}
+.testimonials h3 {
+    color: rgb(151, 146, 228);
+    margin: 20px 0 30px;
+}
+.testimonials .img-content {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 45%;
+}
+.testimonials .nat {
+    background-image: url(../img/testimonial1.jpg);
+}
+.testimonials .celia {
+    background-image: url(../img/testimonial2.jpg);
+}
+.testimonials .bob {
+    background-image: url(../img/testimonial3.jpg);
+}
+.testimonials .back-light-blue {
+    color: white;
+}
+.testimonials .back-light-blue p {
+    margin: 15px 0;
+}
+.testimonials i {
+    font-size: 25px;
+}
+.testimonials p i:first-child {
+    margin-right: 5px;
+}
+.testimonials p i:last-child {
+    margin-left: 5px;
+}
+.testimonials .name {
+    font-weight: bold;
 }
 /* Section Benefits */
 .benefits {
@@ -205,6 +254,9 @@ footer .col-100 {
 h4 {
     font-size: 20px;
 }
+h3 {
+    font-size: 30px;
+}
 /* /GENERAL */
 /* MEDIA */
 /* Tablet */
@@ -235,6 +287,10 @@ h4 {
 }
 /* Desktop */
 @media screen and (min-width: 991px) {
+
+}
+/* Large Desktop */
+@media screen and (min-width: 1200px) {
     .container {
         width: 60%;
     }
@@ -266,9 +322,5 @@ h4 {
     .menu {
         display: block;
     }
-}
-/* Large Desktop */
-@media screen and (min-width: 1200px) {
-
 }
 /* /MEDIA */
