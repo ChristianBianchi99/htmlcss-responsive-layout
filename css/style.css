@@ -317,8 +317,15 @@ footer {
     padding: 40px 0;
 }
 footer .col-100 {
-    background-color: white;
-    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+footer a {
+    color: rgb(151, 146, 228);
+}
+footer p:first-child {
+    margin-bottom: 70px;
 }
 /* /FOOTER */
 /* LAYOUT */
@@ -409,7 +416,10 @@ h3 {
         font-size: 25px;
     }
     .get-started .container {
-        width: 50%;
+        width: 60%;
+    }
+    footer .container {
+        width: 60%;
     }
 }
 /* Desktop */
