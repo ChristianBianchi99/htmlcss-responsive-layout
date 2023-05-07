@@ -41,7 +41,7 @@ header button {
 /* /HEADER */
 /* MAIN */
 main {
-    line-height: 1.5;
+    line-height: 2;
 }
 /* Section Feature */
 .feature {
@@ -63,7 +63,7 @@ main {
 }
 .feature img {
     height: 300px;
-    margin-bottom: -7px;
+    margin-bottom: -11px;
 }
 .feature h4, .feature i {
     color: rgb(0, 130, 249);
@@ -155,8 +155,8 @@ main {
     margin: 20px 0 30px;
 }
 .testimonials .img-content {
-    width: 50vw;
-    height: 50vw;
+    width: 60vw;
+    height: 60vw;
     border-radius: 50%;
     background-size: cover;
     background-position: 45%;
@@ -233,13 +233,48 @@ main {
 /* Section About-Us */
 .about-us {
     margin: 80px 0;
-}
-.about-us .col-33-doubled, .about-us .col-33 {
-    background-color: pink;
-    height: 400px;
+    font-size: 14px;
 }
 .about-us .col-33-doubled {
     margin-bottom: 50px;
+}
+.about-us h3 {
+    color: rgb(151, 146, 228);
+}
+.about-us h3:first-child {
+    font-size: 10vw;
+}
+.about-us p {
+    margin-top: 30px;
+}
+.about-us .img-content {
+    width: 50vw;
+    height: 50vw;
+    background-image: url(../img/about.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+}
+.about-us .img-content i {
+    font-size: 18vw;
+    color: rgb(151, 146, 228);
+    position: absolute;
+    top: -5%;
+    right: -5%;
+}
+.about-us .content h3 {
+    margin: 20px 0;
+}
+.about-us button {
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: rgb(151, 146, 228);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.about-us button i {
+    margin-right: 10px;
 }
 /* Section Get-Started */
 .get-started {
