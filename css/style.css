@@ -318,6 +318,7 @@ h4 {
 }
 h3 {
     font-size: 30px;
+    line-height: 1.2;
 }
 /* /GENERAL */
 /* MEDIA */
@@ -364,6 +365,22 @@ h3 {
     }
     .testimonials .p-content {
         margin: 0 25px;
+    }
+    .about-us h3:first-child {
+        font-size: 50px;
+    }
+    .about-us p {
+        padding-right: 20px;
+    }
+    .about-us .img-content {
+        width: 200px;
+        height: 200px;
+    }
+    .about-us .img-content i {
+        font-size: 80px;
+    }
+    .about-us .content h3 {
+        font-size: 25px;
     }
 }
 /* Desktop */
